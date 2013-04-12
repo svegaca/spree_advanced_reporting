@@ -4,9 +4,9 @@ Spree::Admin::ReportsController.class_eval do
   # until https://github.com/spree/spree/issues/1863 is taken care of
   # this is a workaround hack to get the report definitions to load
 
-  # I18n.load_path << Spree::AdvancedReporting::Engine.config.paths["config/locales"].first
-  # I18n.locale = I18n.default_locale
-  # I18n.reload!
+#  I18n.load_path << Spree::AdvancedReporting::Engine.config.paths["config/locales"].first
+#  I18n.locale = I18n.default_locale
+#  I18n.reload!
 
   # TODO there has got to be a more ruby way to do this...
   ADVANCED_REPORTS ||= {}
